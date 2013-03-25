@@ -3,17 +3,42 @@ pure-webapp-seed
 
 My own starting point for writing pure-webapp(runs on browser/front-end/client-side).
 
-Please, raise issues to to keep up-to-date.
+Please, feel free to raise issues or pull requests.
 
 Ingredients
 -----------
 
-* angular 1.0.5
-* bootstrap 2.3.1
-* google-code-prettify 4-Mar-2013
-* html5shiv 3.6.2
-* jquery 1.9.1 with plugins
+* [angular](http://angularjs.org) 1.0.5
+* [bootstrap](http://getbootstrap.com) 2.3.1
+* [fontawesome](http://fortawesome.github.com/Font-Awesome/) 3.0.2
+* [google-code-prettify](http://code.google.com/p/google-code-prettify/) 4-Mar-2013
+* [html5shiv](https://github.com/aFarkas/html5shiv) 3.6.2
+* [jquery](http://jquery.com) 1.9.1 with plugins
+* and ...
 
+Run Webapp
+----------
+
+```
+$ git clone git://github.com/iolo/pure-webapp-seed.git
+$ python -m SimpleHTTPServer
+$ open http://localhost:8000
+```
+
+Run Test
+--------
+
+* TBW
+
+Apply to Your Project
+---------------------
+
+* TBW
+
+Update Libraries
+----------------
+
+* TBW
 
 Directory Layout
 ----------------
@@ -99,3 +124,4 @@ Directory Layout
     `-- partials
         `-- home.html
 ```
+
