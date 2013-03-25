@@ -1,0 +1,48 @@
+/* app css stylesheet */
+
+#httpLoadingIndicator {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #0000cc;
+    color: #ffffff;
+    z-index: 9999;
+}
+
+#httpErrorIndicator {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #cc0000;
+    color: #ffffff;
+    z-index: 9999;
+}
+
+.menu {
+    list-style: none;
+    border-bottom: 0.1em solid black;
+    margin-bottom: 2em;
+    padding: 0 0 0.5em;
+}
+
+.menu:before {
+    content: "[";
+}
+
+.menu:after {
+    content: "]";
+}
+
+.menu > li {
+    display: inline;
+}
+
+.menu > li:before {
+    content: "|";
+    padding-right: 0.3em;
+}
+
+.menu > li:nth-child(1):before {
+    content: "";
+    padding: 0;
+}

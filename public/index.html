@@ -1,0 +1,75 @@
+<!doctype html>
+<html ng-app="app">
+<head>
+  <meta charset="utf-8">
+  <title>pure-webapp-seed</title>
+  <meta viewport="width=device-width,initial-scale=1.0"/>
+  <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css"/>
+  <style>body {
+    padding-top: 60px;
+  }</style>
+  <link rel="stylesheet" href="lib/bootstrap/css/bootstrap-responsive.min.css"/>
+  <link rel="stylesheet" href="lib/fontawesome/css/font-awesome.min.css"/>
+  <!--[if lt IE 9]>
+  <script src="lib/html5shiv.js"></script>
+  <link rel="stylesheet" href="lib/fontawesome/css/font-awesome-ie7.min.css"/>
+  <![endif]-->
+  <link rel="stylesheet" href="css/app.css"/>
+</head>
+<body>
+
+<header class="navbar navbar-fixed-top navbar-inverse">
+  <div class="navbar-inner">
+    <div class="container-fluid">
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+      <a class="brand" href="#">pure-webapp-seed</a>
+
+      <div class="nav-collapse collapse">
+        <ul class="nav">
+          <li ng-class="navActive('view1')"><a href="#/view1">view1</a></li>
+          <li ng-class="navActive('view2')"><a href="#/view2">view2</a></li>
+          <li ng-class="navActive('view3')"><a href="#/view3">view3</a></li>
+        </ul>
+        <form class="navbar-search pull-right">
+          <input type="text" class="search-query" placeholder="Search"/>
+        </form>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="container-fluid">
+  <div class="row-fluid">
+    <div class="span3">
+      <ul class="nav nav-pills nav-stacked">
+        <li ng-class="navActive('view1')"><a href="#/view1">view1</a></li>
+        <li ng-class="navActive('view2')"><a href="#/view2">view2</a></li>
+        <li ng-class="navActive('view3')"><a href="#/view3">view3</a></li>
+      </ul>
+    </div>
+    <div class="span9">
+      <article id="content" ng-view></article>
+    </div>
+  </div>
+  <hr />
+  <footer>
+    <p>Copyright &copy; 2013 IoloTheBard. All rights reserved.</p>
+  </footer>
+</section>
+
+<!-- angularjs -->
+<script src="lib/angular/angular.min.js"></script>
+<script src="js/app.js"></script>
+<script src="js/services.js"></script>
+<script src="js/controllers.js"></script>
+<script src="js/filters.js"></script>
+<script src="js/directives.js"></script>
+<!-- bootstrap -->
+<script src="lib/jquery/jquery.min.js"></script>
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
