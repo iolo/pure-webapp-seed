@@ -21,6 +21,7 @@ Run Webapp
 
 ```
 $ git clone git://github.com/iolo/pure-webapp-seed.git
+$ cd public
 $ python -m SimpleHTTPServer
 $ open http://localhost:8000
 ```
