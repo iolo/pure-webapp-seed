@@ -10,12 +10,12 @@ Ingredients
 
 * [angular](http://angularjs.org) 1.0.7
 * [bootstrap](http://getbootstrap.com) 2.3.1 with plugins
-* [fontawesome](http://fortawesome.github.com/Font-Awesome/) 3.1.1
+* [fontawesome](http://fortawesome.github.com/Font-Awesome/) 3.2.1
 * [google-code-prettify](http://code.google.com/p/google-code-prettify/) 4-Mar-2013 with [custom themes](http://jmblog.github.com/color-themes-for-google-code-prettify/)
 * [html5shiv](https://github.com/aFarkas/html5shiv) 3.6.2
 * [ace](http://ace.ajax.org)
 * [showdown](https://github.com/coreyti/showdown)
-* [jquery](http://jquery.com) 1.9.1 with plugins
+* [jquery](http://jquery.com) 1.10.2 with plugins
 * and ...
 
 Run Webapp
